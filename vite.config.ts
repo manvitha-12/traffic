@@ -14,5 +14,8 @@ export default defineConfig({
     server: {
       preset: "vercel"
     },
+    router: {
+      entry: "./router.tsx"
+    }
   },
 });
